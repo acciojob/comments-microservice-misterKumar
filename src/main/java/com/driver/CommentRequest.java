@@ -12,6 +12,7 @@ public class CommentRequest {
 
     public void setVideoId(String videoId) {
     	// your code goes here
+        this.videoId=videoId;
     }
 
     public String getComment() {
@@ -21,5 +22,6 @@ public class CommentRequest {
 
     public void setComment(String comment) {
     	// your code goes here
+        this.comment=comment;
     }
 }
